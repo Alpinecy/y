@@ -1,0 +1,34 @@
+body {
+	font-family: "Google Sans", sans-serif;
+	background: #fff7d1;
+	color: #787461;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  --text-color: #787461;
+  --bg-main-color: #e6dcb3;
+  --border-color: #a39d7f;
+}
+#main {
+	text-align: center;
+	background: var(--bg-main-color);
+	border-radius: 10px;
+	width: 1000px;
+}
+a {color: var(--text-color)}
+hr {
+	border-top: 1px solid var(--border-color);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+main {
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: left;
+}
+.end {
+	text-align: center;
+}
